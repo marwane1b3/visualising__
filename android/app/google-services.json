@@ -1,0 +1,183 @@
+{
+  "project_info": {
+    "project_number": "1073098248838",
+    "firebase_url": "https://kaalix-195806.firebaseio.com",
+    "project_id": "kaalix-195806",
+    "storage_bucket": "kaalix-195806.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073098248838:android:af35f12ee595c910",
+        "android_client_info": {
+          "package_name": "com.kaalix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073098248838-amqso38275gfsh1ao58cclaqv18268uv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kaalix",
+            "certificate_hash": "a93534b34a0f07a568143f3a8546f8af069a10d4"
+          }
+        },
+        {
+          "client_id": "1073098248838-h7fpp5u0tbbr4su4k9gjbqapmerrcpf7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kaalix",
+            "certificate_hash": "9913d8f00e59f687eaeb7261f4ab2742b9172e47"
+          }
+        },
+        {
+          "client_id": "1073098248838-iljoca52u73n6c9bqenfit34b6l6udq4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kaalix",
+            "certificate_hash": "586b2ce42c189bdff1c1b0cd366066c9e7a4aeaa"
+          }
+        },
+        {
+          "client_id": "1073098248838-s6u6mqiln6th0svdldck4ls8aodid6mv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kaalix",
+            "certificate_hash": "6955acabebbd7408d8c2a70720311658e203127c"
+          }
+        },
+        {
+          "client_id": "1073098248838-hm0313do92vdls922j5ka1u59s67dqob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaFq9qrb6_NahsvKeYWOeZy5aozR-ZxDk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1073098248838-hm0313do92vdls922j5ka1u59s67dqob.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1073098248838-478nhjdmpaun169tcc55d0p28i5ksdk8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kaalix.store"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073098248838:android:c4e2a1e7e91f7052",
+        "android_client_info": {
+          "package_name": "com.kaalix.provider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073098248838-2u4v9e1ueevng7jub6sst39gnttj5b5f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kaalix.provider",
+            "certificate_hash": "2d1bda35a0cbf85aedfa67516aa0a01a17f251eb"
+          }
+        },
+        {
+          "client_id": "1073098248838-nj0v79ph6gmbuk3tvdnadql3afvo9qq4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kaalix.provider",
+            "certificate_hash": "9913d8f00e59f687eaeb7261f4ab2742b9172e47"
+          }
+        },
+        {
+          "client_id": "1073098248838-hm0313do92vdls922j5ka1u59s67dqob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaFq9qrb6_NahsvKeYWOeZy5aozR-ZxDk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1073098248838-hm0313do92vdls922j5ka1u59s67dqob.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1073098248838-478nhjdmpaun169tcc55d0p28i5ksdk8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kaalix.store"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073098248838:android:977a60f42fea7d3c",
+        "android_client_info": {
+          "package_name": "com.kaalix.store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073098248838-htf39oldcn2u768oobi64fpvessqecr9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kaalix.store",
+            "certificate_hash": "9913d8f00e59f687eaeb7261f4ab2742b9172e47"
+          }
+        },
+        {
+          "client_id": "1073098248838-m0b5v08g1887q3er6o3kdqcu662172rm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kaalix.store",
+            "certificate_hash": "60104ea03bb09e3a6af102b4fb16f72a409069db"
+          }
+        },
+        {
+          "client_id": "1073098248838-hm0313do92vdls922j5ka1u59s67dqob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaFq9qrb6_NahsvKeYWOeZy5aozR-ZxDk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1073098248838-hm0313do92vdls922j5ka1u59s67dqob.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1073098248838-478nhjdmpaun169tcc55d0p28i5ksdk8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kaalix.store"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

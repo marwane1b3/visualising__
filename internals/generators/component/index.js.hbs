@@ -1,0 +1,38 @@
+/**
+ *
+ * {{ properCase name }}
+ *
+ */
+
+{{#if memo}}
+import React, { memo } from 'react';
+{{else}}
+import React from 'react';
+{{/if}}
+import { View } from 'react-native';
+
+{{#if wantMessages}}
+import { FormattedMessage } from 'components/FormattedMessage';
+import messages from './messages';
+{{/if}}
+
+{{#if memo}}
+export const {{ properCase name }}: React.NamedExoticComponent<I{{ properCase name }}Props> = memo(({}) => {
+{{else}}
+export const {{ properCase name }}: React.FC<I{{ properCase name }}Props> = ({}) => {
+{{/if}}
+  return (
+    <View>
+    {{#if wantMessages}}
+      <FormattedMessage {...messages.header} />
+    {{/if}}
+    </View>
+  );
+{{#if memo}}
+});
+{{else}}
+};
+{{/if}}
+
+export interface I{{ properCase name }}Props {}
+export default {{ properCase name }};

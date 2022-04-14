@@ -1,0 +1,94 @@
+/**
+ *
+ * {{properCase name }}
+ *
+ */
+
+{{#if memo}}
+import React, { memo } from 'react';
+{{else}}
+import React from 'react';
+{{/if}}
+import { View, StyleSheet } from 'react-native';
+{{#if wantActionsAndReducer}}
+import { useSelector, useDispatch } from 'react-redux';
+import { createStructuredSelector } from 'reselect';
+{{/if}}
+
+{{#if wantActionsAndReducer}}
+  {{#if wantSaga}}
+import { useInjectReducer, useInjectSaga } from 'redux-injectors';
+  {{else}}
+import { useInjectReducer } from 'redux-injectors';
+  {{/if}}
+{{else}}
+  {{#if wantSaga}}
+import { useInjectSaga } from 'redux-injectors';
+  {{/if}}
+{{/if}}
+{{#if wantActionsAndReducer}}
+import makeSelect{{properCase name}} from './selectors';
+import reducer from './reducer';
+{{/if}}
+{{#if wantSaga}}
+import saga from './saga';
+{{/if}}
+{{#if wantMessages}}
+import { FormattedMessage } from 'components/FormattedMessage';
+import messages from './messages';
+{{/if}}
+
+{{#if wantActionsAndReducer}}
+const stateSelector = createStructuredSelector({
+  {{camelCase name}}: makeSelect{{properCase name}}(),
+});
+{{/if}}
+
+const key = '{{ camelCase name }}';
+
+{{#if memo}}
+export const {{ properCase name }}: React.NamedExoticComponent<I{{ properCase name }}Props> = memo(({}) => {
+{{else}}
+export const {{ properCase name }}: React.FC<I{{ properCase name }}Props> = ({ }) => {
+{{/if}}
+  {{#if wantActionsAndReducer}}
+  useInjectReducer({ key, reducer });
+  {{/if}}
+  {{#if wantSaga}}
+  useInjectSaga({ key, saga });
+  {{/if}}
+  {{#if wantActionsAndReducer}}
+
+  /* eslint-disable no-unused-vars */
+  const { {{camelCase name}} } = useSelector(stateSelector);
+  const dispatch = useDispatch();
+  /* eslint-enable no-unused-vars */
+  {{/if}}
+
+  return (
+    <View style={styles.container}>
+    {{#if wantMessages}}
+      <FormattedMessage {...messages.header} />
+    {{/if}}
+    </View>
+  );
+{{#if memo}}
+});
+{{else}}
+};
+{{/if}}
+
+const styles = StyleSheet.create({
+  container: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    flex: 1,
+  },
+});
+
+
+export interface I{{ properCase name }}Props {}
+
+
+
+export default {{ properCase name }};
